@@ -6,7 +6,8 @@
     "version": "1.0",
     "status": "proposed"
   },
-  "theory_name": "FORTH (Four-dimensional Orthogonal Rotating Torus Hypothesis)",
+  "theory": {
+    "theory_name": "FORTH (Four-dimensional Orthogonal Rotating Torus Hypothesis)",
   "core_concepts": {
     "spatial_4th_dimension": {
       "name": "W-axis",
@@ -119,5 +120,6 @@
       "R/r ratio correlations"
     ],
     "timeline": "Verification expected within 5-10 years"
+  }
   }
 }

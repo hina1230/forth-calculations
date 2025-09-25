@@ -5,6 +5,14 @@
     "article": "#005 Polarization Prediction",
     "version": "1.0"
   },
+  "physical_constants": {
+    "G": 6.67430e-11,
+    "c": 299792458,
+    "M_sun": 1.98847e30,
+    "unit_G": "m^3 kg^-1 s^-2",
+    "unit_c": "m/s",
+    "unit_M_sun": "kg"
+  },
   "system_parameters": {
     "black_hole_mass": 6500000000.0,
     "schwarzschild_radius": 19196705983434.707,
