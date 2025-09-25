@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.env
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Project specific - exclude internal docs
+CLAUDE*.md
+RESTART*.md
+PROMOTION*.md
+*HANDOVER*.md
+*_SETUP.md
+backup*.py
+restore*.py
+init*.py
+/docs/
+/Code/
+SESSION_*.md
+TECHNICAL_*.md
+PROJECT_*.md

@@ -1,0 +1,359 @@
+{
+  "metadata": {
+    "calculation_date": "2025-09-25T17:12:25.088360",
+    "author": "Yoshiyuki Matsuyama",
+    "article": "#005 Polarization Prediction",
+    "version": "1.0"
+  },
+  "system_parameters": {
+    "black_hole_mass": 6500000000.0,
+    "schwarzschild_radius": 19196705983434.707,
+    "major_radius": 191967059834347.06,
+    "minor_radius": 67188470942021.48,
+    "R_over_r": 2.8571428571428568,
+    "W_wavelength": 38393411966869.414,
+    "W_amplitude": 19196705983434.707
+  },
+  "results": {
+    "magnetic_field": {
+      "reference_strength": 100,
+      "configurations": [
+        {
+          "w_phase": 0.0,
+          "B_toroidal": 53.45224838248488,
+          "B_poloidal": 16.035674514745462,
+          "B_w": 0.0,
+          "B_total": 55.80578567035603
+        },
+        {
+          "w_phase": 0.41887902047863906,
+          "B_toroidal": 53.45224838248488,
+          "B_poloidal": 16.035674514745462,
+          "B_w": 4.0673664307580015,
+          "B_total": 55.95381295289689
+        },
+        {
+          "w_phase": 0.8377580409572781,
+          "B_toroidal": 53.45224838248488,
+          "B_poloidal": 16.035674514745462,
+          "B_w": 7.431448254773941,
+          "B_total": 56.29842038147338
+        },
+        {
+          "w_phase": 1.2566370614359172,
+          "B_toroidal": 53.45224838248488,
+          "B_poloidal": 16.035674514745462,
+          "B_w": 9.510565162951535,
+          "B_total": 56.61039272081109
+        },
+        {
+          "w_phase": 1.6755160819145563,
+          "B_toroidal": 53.45224838248488,
+          "B_poloidal": 16.035674514745462,
+          "B_w": 9.945218953682733,
+          "B_total": 56.6850341300277
+        },
+        {
+          "w_phase": 2.0943951023931953,
+          "B_toroidal": 53.45224838248488,
+          "B_poloidal": 16.035674514745462,
+          "B_w": 8.660254037844387,
+          "B_total": 56.473761290405605
+        },
+        {
+          "w_phase": 2.5132741228718345,
+          "B_toroidal": 53.45224838248488,
+          "B_poloidal": 16.035674514745462,
+          "B_w": 5.877852522924733,
+          "B_total": 56.11447999016802
+        },
+        {
+          "w_phase": 2.9321531433504733,
+          "B_toroidal": 53.45224838248488,
+          "B_poloidal": 16.035674514745462,
+          "B_w": 2.079116908177597,
+          "B_total": 55.844502338221126
+        },
+        {
+          "w_phase": 3.3510321638291125,
+          "B_toroidal": 53.45224838248488,
+          "B_poloidal": 16.035674514745462,
+          "B_w": -2.079116908177591,
+          "B_total": 55.844502338221126
+        },
+        {
+          "w_phase": 3.7699111843077517,
+          "B_toroidal": 53.45224838248488,
+          "B_poloidal": 16.035674514745462,
+          "B_w": -5.87785252292473,
+          "B_total": 56.11447999016802
+        },
+        {
+          "w_phase": 4.1887902047863905,
+          "B_toroidal": 53.45224838248488,
+          "B_poloidal": 16.035674514745462,
+          "B_w": -8.660254037844386,
+          "B_total": 56.473761290405605
+        },
+        {
+          "w_phase": 4.607669225265029,
+          "B_toroidal": 53.45224838248488,
+          "B_poloidal": 16.035674514745462,
+          "B_w": -9.945218953682733,
+          "B_total": 56.6850341300277
+        },
+        {
+          "w_phase": 5.026548245743669,
+          "B_toroidal": 53.45224838248488,
+          "B_poloidal": 16.035674514745462,
+          "B_w": -9.510565162951536,
+          "B_total": 56.6103927208111
+        },
+        {
+          "w_phase": 5.445427266222308,
+          "B_toroidal": 53.45224838248488,
+          "B_poloidal": 16.035674514745462,
+          "B_w": -7.4314482547739455,
+          "B_total": 56.29842038147338
+        },
+        {
+          "w_phase": 5.864306286700947,
+          "B_toroidal": 53.45224838248488,
+          "B_poloidal": 16.035674514745462,
+          "B_w": -4.0673664307580095,
+          "B_total": 55.95381295289689
+        },
+        {
+          "w_phase": 6.283185307179586,
+          "B_toroidal": 53.45224838248488,
+          "B_poloidal": 16.035674514745462,
+          "B_w": -2.4492935982947065e-15,
+          "B_total": 55.80578567035603
+        }
+      ],
+      "helical_pitch": 0.3366748193867272,
+      "helical_period": 1408166.2235638094
+    },
+    "polarization_pattern": {
+      "description": "Helical polarization pattern due to W-axis",
+      "rotation_measure": "Variable with W-phase",
+      "period_hours": 391.1572843232804,
+      "data": [
+        {
+          "w_phase": 0.0,
+          "polarization_angle_mean": 1.5707963267948966,
+          "polarization_angle_std": 1.7927953850684968,
+          "polarization_degree_mean": 0.20156249999999998,
+          "polarization_degree_max": 0.30000000000000004,
+          "polarization_degree_min": 0.10012430787810778,
+          "stokes_Q_mean": -0.006090806547049322,
+          "stokes_U_mean": 4.336808689942018e-19
+        },
+        {
+          "w_phase": 0.41887902047863906,
+          "polarization_angle_mean": 1.5221814824672122,
+          "polarization_angle_std": 1.784424772232135,
+          "polarization_degree_mean": 0.2014274147775666,
+          "polarization_degree_max": 0.2999801072770524,
+          "polarization_degree_min": 0.10004475677164967,
+          "stokes_Q_mean": -0.002454378285451431,
+          "stokes_U_mean": -6.093505652478878e-05
+        },
+        {
+          "w_phase": 0.8377580409572781,
+          "polarization_angle_mean": 1.5220535714746797,
+          "polarization_angle_std": 1.782890395355215,
+          "polarization_degree_mean": 0.20104551657243575,
+          "polarization_degree_max": 0.29992043702261795,
+          "polarization_degree_min": 0.1000049733044057,
+          "stokes_Q_mean": -0.0004758165900344939,
+          "stokes_U_mean": 4.1504974574631e-06
+        },
+        {
+          "w_phase": 1.2566370614359172,
+          "polarization_angle_mean": 1.570877032722985,
+          "polarization_angle_std": 1.7829655247487488,
+          "polarization_degree_mean": 0.20048283905371087,
+          "polarization_degree_max": 0.29992043702261795,
+          "polarization_degree_min": 0.1000049733044057,
+          "stokes_Q_mean": 9.157569422888964e-05,
+          "stokes_U_mean": 0.0001145457803344047
+        },
+        {
+          "w_phase": 1.6755160819145563,
+          "polarization_angle_mean": 1.5708053876569958,
+          "polarization_angle_std": 1.7826151025703636,
+          "polarization_degree_mean": 0.19983667427614432,
+          "polarization_degree_max": 0.2999801072770524,
+          "polarization_degree_min": 0.10004475677164967,
+          "stokes_Q_mean": -0.0001029261628702656,
+          "stokes_U_mean": 0.00015686028441035007
+        },
+        {
+          "w_phase": 2.0943951023931953,
+          "polarization_angle_mean": 1.5710055728759147,
+          "polarization_angle_std": 1.7836860703970974,
+          "polarization_degree_mean": 0.19921875,
+          "polarization_degree_max": 0.30000000000000004,
+          "polarization_degree_min": 0.10012430787810778,
+          "stokes_Q_mean": -0.0006949262235746451,
+          "stokes_U_mean": 3.6245482859284745e-05
+        },
+        {
+          "w_phase": 2.5132741228718345,
+          "polarization_angle_mean": 1.5221460602631705,
+          "polarization_angle_std": 1.7832912779611825,
+          "polarization_degree_mean": 0.19873591094628915,
+          "polarization_degree_max": 0.2999801072770524,
+          "polarization_degree_min": 0.10004475677164967,
+          "stokes_Q_mean": -0.0012884107456001808,
+          "stokes_U_mean": -8.518016488462074e-05
+        },
+        {
+          "w_phase": 2.9321531433504733,
+          "polarization_angle_mean": 1.522159553797765,
+          "polarization_angle_std": 1.7867115157262725,
+          "polarization_degree_mean": 0.19847164437385345,
+          "polarization_degree_max": 0.29992043702261795,
+          "polarization_degree_min": 0.1000049733044057,
+          "stokes_Q_mean": -0.0022038422210205015,
+          "stokes_U_mean": -4.8303142234728744e-05
+        },
+        {
+          "w_phase": 3.3510321638291125,
+          "polarization_angle_mean": 1.6194330997920283,
+          "polarization_angle_std": 1.7867115157262725,
+          "polarization_degree_mean": 0.19847164437385342,
+          "polarization_degree_max": 0.29992043702261795,
+          "polarization_degree_min": 0.1000049733044057,
+          "stokes_Q_mean": -0.0022038422210204998,
+          "stokes_U_mean": 4.830314223472679e-05
+        },
+        {
+          "w_phase": 3.7699111843077517,
+          "polarization_angle_mean": 1.6194465933266229,
+          "polarization_angle_std": 1.7832912779611827,
+          "polarization_degree_mean": 0.19873591094628917,
+          "polarization_degree_max": 0.2999801072770524,
+          "polarization_degree_min": 0.10004475677164967,
+          "stokes_Q_mean": -0.001288410745600186,
+          "stokes_U_mean": 8.518016488461987e-05
+        },
+        {
+          "w_phase": 4.1887902047863905,
+          "polarization_angle_mean": 1.6196744659262188,
+          "polarization_angle_std": 1.7830162559628053,
+          "polarization_degree_mean": 0.19921875,
+          "polarization_degree_max": 0.30000000000000004,
+          "polarization_degree_min": 0.10012430787810778,
+          "stokes_Q_mean": -0.000694926223574659,
+          "stokes_U_mean": -3.6245482859279324e-05
+        },
+        {
+          "w_phase": 4.607669225265029,
+          "polarization_angle_mean": 1.5707872659327973,
+          "polarization_angle_std": 1.7826151025703636,
+          "polarization_degree_mean": 0.19983667427614427,
+          "polarization_degree_max": 0.2999801072770524,
+          "polarization_degree_min": 0.10004475677164967,
+          "stokes_Q_mean": -0.00010292616287027774,
+          "stokes_U_mean": -0.00015686028441035143
+        },
+        {
+          "w_phase": 5.026548245743669,
+          "polarization_angle_mean": 1.570715620866808,
+          "polarization_angle_std": 1.7829655247487488,
+          "polarization_degree_mean": 0.20048283905371084,
+          "polarization_degree_max": 0.29992043702261795,
+          "polarization_degree_min": 0.1000049733044057,
+          "stokes_Q_mean": 9.157569422889571e-05,
+          "stokes_U_mean": -0.00011454578033440681
+        },
+        {
+          "w_phase": 5.445427266222308,
+          "polarization_angle_mean": 1.6195390821151134,
+          "polarization_angle_std": 1.782890395355215,
+          "polarization_degree_mean": 0.20104551657243575,
+          "polarization_degree_max": 0.29992043702261795,
+          "polarization_degree_min": 0.1000049733044057,
+          "stokes_Q_mean": -0.000475816590034487,
+          "stokes_U_mean": -4.150497457462341e-06
+        },
+        {
+          "w_phase": 5.864306286700947,
+          "polarization_angle_mean": 1.619411171122581,
+          "polarization_angle_std": 1.784424772232135,
+          "polarization_degree_mean": 0.2014274147775666,
+          "polarization_degree_max": 0.2999801072770524,
+          "polarization_degree_min": 0.10004475677164966,
+          "stokes_Q_mean": -0.002454378285451423,
+          "stokes_U_mean": 6.09350565247903e-05
+        },
+        {
+          "w_phase": 6.283185307179586,
+          "polarization_angle_mean": 1.6198837120072371,
+          "polarization_angle_std": 1.7921232439025825,
+          "polarization_degree_mean": 0.2015625,
+          "polarization_degree_max": 0.30000000000000004,
+          "polarization_degree_min": 0.10012430787810778,
+          "stokes_Q_mean": -0.0060908065470493145,
+          "stokes_U_mean": 6.071532165918825e-18
+        }
+      ]
+    },
+    "observational_signatures": {
+      "W_axis_period": {
+        "seconds": 1408166.2235638094,
+        "hours": 391.1572843232804,
+        "days": 16.29822018013668
+      },
+      "polarization_variation": {
+        "amplitude_degrees": 30,
+        "period_hours": 391.1572843232804,
+        "pattern": "Sinusoidal with W-phase"
+      },
+      "frequency_dependence": {
+        "frequencies_GHz": [
+          86000000000.0,
+          230000000000.0,
+          345000000000.0
+        ],
+        "faraday_rotation_rad": [
+          0.012151908852580011,
+          0.0016989700921300897,
+          0.0007550978187244845
+        ],
+        "rotation_measure": 1000.0
+      },
+      "detectability": {
+        "ALMA": "Detectable with polarimetry mode",
+        "EHT": "Requires multiple epochs",
+        "time_resolution_needed": "< 1 hour"
+      }
+    },
+    "helical_structure": {
+      "pitch_angle": {
+        "radians": 0.3366748193867272,
+        "degrees": 19.290046219188735
+      },
+      "helical_wavelength": {
+        "meters": 1277908493025936.0,
+        "Rs_units": 66.56915483982895
+      },
+      "twist_rate": {
+        "per_meter": 4.91677247742657e-15,
+        "per_Rs": 0.09438583563660173
+      },
+      "number_of_turns": 17.951958020513104,
+      "handedness": "Right-handed (positive helicity)",
+      "stability": {
+        "kink_mode": "Stable for n_turns < 2π",
+        "current_status": "Marginally stable"
+      }
+    },
+    "visualization": {
+      "file": "polarization_pattern_005.html",
+      "type": "3D polarization pattern"
+    }
+  }
+}

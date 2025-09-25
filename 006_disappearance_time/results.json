@@ -1,0 +1,279 @@
+{
+  "metadata": {
+    "calculation_date": "2025-09-25T17:14:40.417617",
+    "author": "Yoshiyuki Matsuyama",
+    "article": "#006 Disappearance Time",
+    "version": "1.0"
+  },
+  "physical_constants": {
+    "G": 6.6743e-11,
+    "c": 299792458,
+    "M_sun": 1.98847e+30
+  },
+  "black_hole_parameters": {
+    "M87": {
+      "mass_solar": 6500000000.0,
+      "schwarzschild_radius": 19196705983434.707
+    },
+    "SgrA": {
+      "mass_solar": 4300000.0,
+      "schwarzschild_radius": 12699359342.887577
+    }
+  },
+  "results": {
+    "different_radii": {
+      "description": "Disappearance time for various tube radii",
+      "calculations": [
+        {
+          "r_meters": 9598352991717.354,
+          "delta_t_seconds": 201166.60336625847,
+          "delta_t_minutes": 3352.7767227709746,
+          "delta_t_hours": 55.879612046182906,
+          "delta_t_days": 2.3283171685909543,
+          "formula": "Δt = 2πr/c",
+          "r_Rs_units": 0.5,
+          "r_km": 9598352991.717354,
+          "r_AU": 64.16011358099836
+        },
+        {
+          "r_meters": 19196705983434.707,
+          "delta_t_seconds": 402333.20673251693,
+          "delta_t_minutes": 6705.553445541949,
+          "delta_t_hours": 111.75922409236581,
+          "delta_t_days": 4.656634337181909,
+          "formula": "Δt = 2πr/c",
+          "r_Rs_units": 1.0,
+          "r_km": 19196705983.434708,
+          "r_AU": 128.3202271619967
+        },
+        {
+          "r_meters": 38393411966869.414,
+          "delta_t_seconds": 804666.4134650339,
+          "delta_t_minutes": 13411.106891083899,
+          "delta_t_hours": 223.51844818473162,
+          "delta_t_days": 9.313268674363817,
+          "formula": "Δt = 2πr/c",
+          "r_Rs_units": 2.0,
+          "r_km": 38393411966.869415,
+          "r_AU": 256.6404543239934
+        },
+        {
+          "r_meters": 67188470942021.48,
+          "delta_t_seconds": 1408166.2235638094,
+          "delta_t_minutes": 23469.437059396823,
+          "delta_t_hours": 391.1572843232804,
+          "delta_t_days": 16.29822018013668,
+          "formula": "Δt = 2πr/c",
+          "r_Rs_units": 3.5,
+          "r_km": 67188470942.02148,
+          "r_AU": 449.1207950669885
+        },
+        {
+          "r_meters": 95983529917173.53,
+          "delta_t_seconds": 2011666.0336625846,
+          "delta_t_minutes": 33527.767227709744,
+          "delta_t_hours": 558.7961204618291,
+          "delta_t_days": 23.283171685909544,
+          "formula": "Δt = 2πr/c",
+          "r_Rs_units": 5.0,
+          "r_km": 95983529917.17354,
+          "r_AU": 641.6011358099835
+        },
+        {
+          "r_meters": 191967059834347.06,
+          "delta_t_seconds": 4023332.067325169,
+          "delta_t_minutes": 67055.53445541949,
+          "delta_t_hours": 1117.5922409236582,
+          "delta_t_days": 46.56634337181909,
+          "formula": "Δt = 2πr/c",
+          "r_Rs_units": 10.0,
+          "r_km": 191967059834.34708,
+          "r_AU": 1283.202271619967
+        }
+      ]
+    },
+    "observation_windows": {
+      "standard_radius": 19196705983434.707,
+      "period_hours": 111.75922409236581,
+      "windows": [
+        {
+          "cycle": 1,
+          "disappear_UTC": "2025-01-01T00:00:00",
+          "reappear_UTC": "2025-01-03T07:52:46.603366",
+          "duration_hours": 55.879612046182906
+        },
+        {
+          "cycle": 2,
+          "disappear_UTC": "2025-01-05T15:45:33.206733",
+          "reappear_UTC": "2025-01-07T23:38:19.810099",
+          "duration_hours": 55.879612046182906
+        },
+        {
+          "cycle": 3,
+          "disappear_UTC": "2025-01-10T07:31:06.413465",
+          "reappear_UTC": "2025-01-12T15:23:53.016831",
+          "duration_hours": 55.879612046182906
+        },
+        {
+          "cycle": 4,
+          "disappear_UTC": "2025-01-14T23:16:39.620198",
+          "reappear_UTC": "2025-01-17T07:09:26.223564",
+          "duration_hours": 55.879612046182906
+        },
+        {
+          "cycle": 5,
+          "disappear_UTC": "2025-01-19T15:02:12.826930",
+          "reappear_UTC": "2025-01-21T22:54:59.430296",
+          "duration_hours": 55.879612046182906
+        },
+        {
+          "cycle": 6,
+          "disappear_UTC": "2025-01-24T06:47:46.033663",
+          "reappear_UTC": "2025-01-26T14:40:32.637029",
+          "duration_hours": 55.879612046182906
+        },
+        {
+          "cycle": 7,
+          "disappear_UTC": "2025-01-28T22:33:19.240395",
+          "reappear_UTC": "2025-01-31T06:26:05.843761",
+          "duration_hours": 55.879612046182906
+        },
+        {
+          "cycle": 8,
+          "disappear_UTC": "2025-02-02T14:18:52.447128",
+          "reappear_UTC": "2025-02-04T22:11:39.050494",
+          "duration_hours": 55.879612046182906
+        },
+        {
+          "cycle": 9,
+          "disappear_UTC": "2025-02-07T06:04:25.653860",
+          "reappear_UTC": "2025-02-09T13:57:12.257226",
+          "duration_hours": 55.879612046182906
+        },
+        {
+          "cycle": 10,
+          "disappear_UTC": "2025-02-11T21:49:58.860593",
+          "reappear_UTC": "2025-02-14T05:42:45.463959",
+          "duration_hours": 55.879612046182906
+        }
+      ]
+    },
+    "black_hole_comparison": {
+      "M87": {
+        "mass_solar": 6500000000.0,
+        "Rs_meters": 19196705983434.707,
+        "Rs_km": 19196705983.434708,
+        "delta_t_seconds": 402333.20673251693,
+        "delta_t_hours": 111.75922409236581,
+        "delta_t_days": 4.656634337181909
+      },
+      "SgrA": {
+        "mass_solar": 4300000.0,
+        "Rs_meters": 12699359342.887577,
+        "Rs_km": 12699359.342887577,
+        "delta_t_seconds": 266.15889060766506,
+        "delta_t_hours": 0.07393302516879585,
+        "delta_t_minutes": 4.435981510127751
+      },
+      "ratio": {
+        "mass_ratio": 1511.6279069767443,
+        "Rs_ratio": 1511.627906976744,
+        "time_ratio": 1511.627906976744
+      }
+    },
+    "detectability": {
+      "time_resolution_required": {
+        "ideal_hours": 1,
+        "minimum_hours": 6,
+        "description": "To detect disappearance/reappearance transitions"
+      },
+      "observation_duration": {
+        "minimum_cycles": 3,
+        "minimum_days": 13.969903011545728,
+        "recommended_days": 46.56634337181909
+      },
+      "instruments": {
+        "ALMA": {
+          "suitable": true,
+          "time_resolution": "< 1 hour achievable",
+          "challenges": "Weather, scheduling"
+        },
+        "EHT": {
+          "suitable": false,
+          "reason": "Campaign mode, not continuous monitoring"
+        },
+        "X-ray": {
+          "suitable": true,
+          "satellites": [
+            "Chandra",
+            "XMM-Newton",
+            "NuSTAR"
+          ],
+          "advantage": "Continuous monitoring possible"
+        }
+      },
+      "signatures": {
+        "flux_variation": "Periodic dimming/brightening",
+        "spectral_change": "Possible hardening during transit",
+        "polarization": "Rotation pattern change"
+      }
+    },
+    "relativistic_corrections": {
+      "description": "General relativistic time dilation effects",
+      "corrections": [
+        {
+          "r_Rs": 2.0,
+          "gravitational_redshift": -0.2928932188134524,
+          "time_dilation_factor": 0.7071067811865476,
+          "delta_t_proper_seconds": 80466.64134650338,
+          "delta_t_observed_seconds": 113797.01551083672,
+          "correction_percent": 41.421356237309496
+        },
+        {
+          "r_Rs": 3.0,
+          "gravitational_redshift": -0.18350341907227397,
+          "time_dilation_factor": 0.816496580927726,
+          "delta_t_proper_seconds": 120699.9620197551,
+          "delta_t_observed_seconds": 147826.65946085463,
+          "correction_percent": 22.474487139158896
+        },
+        {
+          "r_Rs": 5.0,
+          "gravitational_redshift": -0.10557280900008414,
+          "time_dilation_factor": 0.8944271909999159,
+          "delta_t_proper_seconds": 201166.60336625847,
+          "delta_t_observed_seconds": 224911.09996484598,
+          "correction_percent": 11.80339887498949
+        },
+        {
+          "r_Rs": 10.0,
+          "gravitational_redshift": -0.05131670194948623,
+          "time_dilation_factor": 0.9486832980505138,
+          "delta_t_proper_seconds": 402333.20673251693,
+          "delta_t_observed_seconds": 424096.43719804817,
+          "correction_percent": 5.409255338945984
+        },
+        {
+          "r_Rs": 20.0,
+          "gravitational_redshift": -0.025320565519103666,
+          "time_dilation_factor": 0.9746794344808963,
+          "delta_t_proper_seconds": 804666.4134650339,
+          "delta_t_observed_seconds": 825570.3208651268,
+          "correction_percent": 2.59783520851542
+        },
+        {
+          "r_Rs": 50.0,
+          "gravitational_redshift": -0.01005050633883342,
+          "time_dilation_factor": 0.9899494936611666,
+          "delta_t_proper_seconds": 2011666.0336625846,
+          "delta_t_observed_seconds": 2032089.562693513,
+          "correction_percent": 1.0152544552210596
+        }
+      ]
+    },
+    "visualization": {
+      "file": "disappearance_time_006.html",
+      "type": "disappearance_time_vs_radius"
+    }
+  }
+}

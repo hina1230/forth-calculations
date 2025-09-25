@@ -1,0 +1,111 @@
+{
+  "metadata": {
+    "calculation_date": "2025-09-25T16:59:17.236069",
+    "author": "Yoshiyuki Matsuyama",
+    "article": "#003 Energy Conservation",
+    "version": "2.0 (realistic physics)"
+  },
+  "physical_constants": {
+    "G": 6.6743e-11,
+    "c": 299792458,
+    "M_sun": 1.98847e+30,
+    "stefan_boltzmann": 5.670374419e-08
+  },
+  "system_parameters": {
+    "black_hole_mass_solar": 6500000000.0,
+    "schwarzschild_radius": 19196705983434.707,
+    "major_radius": 191967059834347.06,
+    "minor_radius": 191967059834.34708,
+    "R_over_r": 1000,
+    "mass_accretion_rate": 6301081197556214.0
+  },
+  "results": {
+    "accretion_energy": {
+      "outer_radius": 192159026894181.4,
+      "isco_radius": 57590117950304.125,
+      "potential_difference": -1.0489966371869948e+16,
+      "mass_accretion_rate": 6301081197556214.0,
+      "standard_efficiency": 0.057,
+      "forth_efficiency": 0.0855,
+      "accretion_luminosity": 5.651390103781264e+30,
+      "accretion_luminosity_erg_s": 5.651390103781264e+37
+    },
+    "jet_kinetic_energy": {
+      "jet_velocity": 299792308.10373354,
+      "v_over_c": 0.999999499999875,
+      "lorentz_factor": 1000.0000000411333,
+      "jet_mass_rate": 63010811975.56214,
+      "kinetic_power": 5.663126526612393e+30,
+      "kinetic_power_erg_s": 5.663126526612393e+37
+    },
+    "radiation_losses": {
+      "eddington_luminosity": 8.45e+47,
+      "eddington_ratio": 6.688035625776643e-19,
+      "bolometric_luminosity": 5.651390103781264e+29,
+      "thermal_radiation": 2.825695051890632e+29,
+      "synchrotron_radiation": 2.260556041512506e+29,
+      "other_radiation": 5.651390103781265e+28,
+      "gravitational_wave": 1.33432228491131e-42,
+      "total_radiation": 5.651390103781264e+29
+    },
+    "energy_balance": {
+      "energy_input": {
+        "accretion": 5.651390103781264e+30,
+        "description": "Gravitational energy from accretion"
+      },
+      "energy_output": {
+        "jet_kinetic": 5.663126526612393e+30,
+        "radiation": 5.651390103781264e+29,
+        "total": 6.228265536990519e+30
+      },
+      "balance": {
+        "difference": -5.768754332092547e+29,
+        "error_percent": 10.207673202797938,
+        "note": "Non-zero due to radiation and other losses"
+      },
+      "efficiency": {
+        "jet_production": 1.0020767320279793,
+        "radiation_loss": 0.1,
+        "total": 1.1020767320279794
+      }
+    },
+    "relativistic_corrections": [
+      {
+        "R_over_r": 10,
+        "v_over_c": 0.99498743710662,
+        "gamma": 9.999999999999995,
+        "K_classical_mc2": 0.495,
+        "K_relativistic_mc2": 8.999999999999995,
+        "correction_factor": 18.181818181818173
+      },
+      {
+        "R_over_r": 100,
+        "v_over_c": 0.9999499987499375,
+        "gamma": 100.00000000000551,
+        "K_classical_mc2": 0.49995,
+        "K_relativistic_mc2": 99.00000000000551,
+        "correction_factor": 198.01980198020905
+      },
+      {
+        "R_over_r": 1000,
+        "v_over_c": 0.999999499999875,
+        "gamma": 1000.0000000411333,
+        "K_classical_mc2": 0.49999950000000004,
+        "K_relativistic_mc2": 999.0000000411333,
+        "correction_factor": 1998.0019980842644
+      },
+      {
+        "R_over_r": 10000,
+        "v_over_c": 0.9999999949999999,
+        "gamma": 9999.999919365053,
+        "K_classical_mc2": 0.4999999949999999,
+        "K_relativistic_mc2": 9998.999919365053,
+        "correction_factor": 19998.00003871011
+      }
+    ],
+    "visualization": {
+      "file": "energy_flow_003.png",
+      "type": "energy_flow_diagram"
+    }
+  }
+}

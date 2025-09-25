@@ -1,0 +1,72 @@
+{
+  "metadata": {
+    "calculation_date": "2025-09-25T16:47:28.653861",
+    "author": "Yoshiyuki Matsuyama",
+    "article": "#001 Torus Verification",
+    "version": "2.0 (corrected)"
+  },
+  "physical_constants": {
+    "G": 6.6743e-11,
+    "c": 299792458,
+    "M_sun": 1.98847e+30
+  },
+  "target_parameters": {
+    "object": "M87",
+    "mass_solar": 6500000000.0,
+    "mass_kg": 1.2925054999999999e+40
+  },
+  "results": {
+    "schwarzschild_radius": {
+      "formula": "Rs = 2GM/c^2",
+      "inputs": {
+        "G": 6.6743e-11,
+        "M": 1.2925054999999999e+40,
+        "c": 299792458
+      },
+      "steps": [
+        "2 * 6.6743e-11 * 1.293e+40",
+        "= 1.725e+30",
+        "/ 299792458^2",
+        "= 1.725e+30 / 8.988e+16",
+        "= 1.920e+13 m"
+      ],
+      "result": 19196705983434.707,
+      "result_scientific": "1.920e+13 m",
+      "result_km": 19196705983.434708,
+      "result_au": 128.3202271619967
+    },
+    "ratio_comparison": [
+      {
+        "R_over_r": 10,
+        "v_over_c": 0.99498743710662,
+        "gamma": 9.999999999999995,
+        "decimal_places_to_c": 2.2999401651794344
+      },
+      {
+        "R_over_r": 100,
+        "v_over_c": 0.9999499987499375,
+        "gamma": 100.00000000000551,
+        "decimal_places_to_c": 4.301019137894859
+      },
+      {
+        "R_over_r": 1000,
+        "v_over_c": 0.999999499999875,
+        "gamma": 1000.0000000411333,
+        "decimal_places_to_c": 6.30102988711645
+      },
+      {
+        "R_over_r": 10000,
+        "v_over_c": 0.9999999949999999,
+        "gamma": 9999.999919365053,
+        "decimal_places_to_c": 8.301029988660119
+      }
+    ],
+    "energy_analysis": {
+      "potential_energy_accretion": -4489286607077011.0,
+      "kinetic_energy_jet": 8.978564235950495e+19,
+      "rest_mass_energy": 89875517873681764,
+      "conversion_efficiency": 19999.980000823485,
+      "note": "完全保存ではなく、放射損失を考慮した現実的な効率"
+    }
+  }
+}

@@ -1,0 +1,161 @@
+{
+  "metadata": {
+    "calculation_date": "2025-09-25T16:52:45.463096",
+    "author": "Yoshiyuki Matsuyama",
+    "article": "#002 Magnetic Field Visualization",
+    "version": "1.0 (accurate)"
+  },
+  "physical_constants": {
+    "G": 6.6743e-11,
+    "c": 299792458,
+    "M_sun": 1.98847e+30
+  },
+  "torus_parameters": {
+    "R_over_r": 1000,
+    "R_meters": 1.9196705983434708e+16,
+    "r_meters": 19196705983434.707,
+    "R_Rs_units": 1000.0,
+    "r_Rs_units": 1.0
+  },
+  "schwarzschild_radius": {
+    "value_meters": 19196705983434.707,
+    "value_km": 19196705983.434708,
+    "value_AU": 128.3202271619967
+  },
+  "results": {
+    "jet_velocity": {
+      "formula": "v/c = sqrt(1 - (r/R)^2)",
+      "inputs": {
+        "R/r": 1000,
+        "r/R": 0.001
+      },
+      "steps": [
+        "r/R = 1/1000 = 0.001000",
+        "(r/R)^2 = 0.000001000000",
+        "1 - (r/R)^2 = 0.999999000000",
+        "v/c = sqrt(0.999999000000) = 0.999999500"
+      ],
+      "result": {
+        "v_over_c": 0.999999499999875,
+        "gamma_factor": 1000.0000000411333
+      }
+    },
+    "magnetic_field_structure": {
+      "reference_field_strength": 100,
+      "pitch_angle_rad": 0.0009999996666668668,
+      "pitch_angle_deg": 0.057295760414500616,
+      "helical_turns": 6283.185307179587,
+      "characteristic_scale": 6.283185307179586,
+      "magnetic_field_data": [
+        {
+          "w_phase": 0.0,
+          "B_toroidal": 3.162277660168379,
+          "B_poloidal": 0.0,
+          "B_w_max": 5.0,
+          "B_total_mean": 4.669647209941432,
+          "B_total_max": 5.916079783099616,
+          "B_total_min": 3.1663358303598805
+        },
+        {
+          "w_phase": 0.8975979010256552,
+          "B_toroidal": 3.162277660168379,
+          "B_poloidal": 7.818314824680298,
+          "B_w_max": 5.0,
+          "B_total_mean": 9.129079741176671,
+          "B_total_max": 9.804389154751851,
+          "B_total_min": 8.435148444955578
+        },
+        {
+          "w_phase": 1.7951958020513104,
+          "B_toroidal": 3.162277660168379,
+          "B_poloidal": 9.749279121818237,
+          "B_w_max": 5.0,
+          "B_total_mean": 10.823797673114932,
+          "B_total_max": 11.403878436528554,
+          "B_total_min": 10.250567105567464
+        },
+        {
+          "w_phase": 2.6927937030769655,
+          "B_toroidal": 3.162277660168379,
+          "B_poloidal": 4.338837391175582,
+          "B_w_max": 5.0,
+          "B_total_mean": 6.403262625213864,
+          "B_total_max": 7.336587074864124,
+          "B_total_min": 5.371330607743684
+        },
+        {
+          "w_phase": 3.5903916041026207,
+          "B_toroidal": 3.162277660168379,
+          "B_poloidal": -4.33883739117558,
+          "B_w_max": 5.0,
+          "B_total_mean": 6.403262625213861,
+          "B_total_max": 7.336587074864123,
+          "B_total_min": 5.3713306077436815
+        },
+        {
+          "w_phase": 4.487989505128276,
+          "B_toroidal": 3.162277660168379,
+          "B_poloidal": -9.749279121818237,
+          "B_w_max": 5.0,
+          "B_total_mean": 10.82379767311493,
+          "B_total_max": 11.403878436528554,
+          "B_total_min": 10.250567105567464
+        },
+        {
+          "w_phase": 5.385587406153931,
+          "B_toroidal": 3.162277660168379,
+          "B_poloidal": -7.818314824680299,
+          "B_w_max": 5.0,
+          "B_total_mean": 9.129079741176671,
+          "B_total_max": 9.804389154751853,
+          "B_total_min": 8.43514844495558
+        },
+        {
+          "w_phase": 6.283185307179586,
+          "B_toroidal": 3.162277660168379,
+          "B_poloidal": -2.4492935982947065e-15,
+          "B_w_max": 5.0,
+          "B_total_mean": 4.669647209941432,
+          "B_total_max": 5.916079783099616,
+          "B_total_min": 3.16633583035988
+        }
+      ]
+    },
+    "energy_distribution": {
+      "magnetic_energy_density": 39.78873577297384,
+      "kinetic_energy_density": 4.093376368176375e-06,
+      "total_energy_density": 39.788739866350205,
+      "conversion_efficiency": 1.0287775842929346e-07,
+      "plasma_beta": 2.0575574378199921e-07,
+      "detailed_calculation": {
+        "B_field_Tesla": 0.01,
+        "electron_density_per_m3": 100000000.0,
+        "jet_velocity_m_per_s": 299792308.10373354,
+        "vacuum_permeability": 1.2566370614359173e-06
+      }
+    },
+    "observational_predictions": {
+      "W_axis_period": {
+        "seconds": 402333.20673251693,
+        "hours": 111.75922409236581,
+        "days": 4.656634337181909
+      },
+      "characteristic_frequencies": {
+        "major_radius_Hz": 2.4855020248548107e-09,
+        "minor_radius_Hz": 2.4855020248548107e-06,
+        "ratio": 1000.0
+      },
+      "expected_polarization": {
+        "pattern": "Helical with pitch angle",
+        "pitch_angle_rad": 0.0009999996666668668,
+        "rotation_measure": "Variable with W-phase"
+      }
+    },
+    "visualization": {
+      "file": "magnetic_field_3d.html",
+      "grid_points": 10000,
+      "field_lines": 20,
+      "coordinate_system": "Schwarzschild radius units"
+    }
+  }
+}

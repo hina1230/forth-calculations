@@ -1,0 +1,136 @@
+{
+  "metadata": {
+    "calculation_date": "2025-09-25T17:06:03.625533",
+    "author": "Yoshiyuki Matsuyama",
+    "article": "#004 Sgr A* Comparison",
+    "version": "1.0 (accurate)"
+  },
+  "physical_constants": {
+    "G": 6.6743e-11,
+    "c": 299792458,
+    "M_sun": 1.98847e+30
+  },
+  "black_hole_parameters": {
+    "M87": {
+      "mass_solar": 6500000000.0,
+      "schwarzschild_radius": 19196705983434.707,
+      "major_radius": 191967059834347.06,
+      "minor_radius": 67188470942021.48,
+      "accretion_rate": 6.301081197556215e+19
+    },
+    "SgrA": {
+      "mass_solar": 4300000.0,
+      "schwarzschild_radius": 12699359342.887577,
+      "major_radius": 63496796714.43788,
+      "minor_radius": 634967967.1443788,
+      "accretion_rate": 63010811975562.15
+    }
+  },
+  "results": {
+    "schwarzschild_radii": {
+      "M87": {
+        "mass_solar": 6500000000.0,
+        "mass_kg": 1.2925054999999999e+40,
+        "schwarzschild_radius": 19196705983434.707,
+        "Rs_km": 19196705983.434708,
+        "Rs_AU": 128.3202271619967
+      },
+      "SgrA": {
+        "mass_solar": 4300000.0,
+        "mass_kg": 8.550421e+36,
+        "schwarzschild_radius": 12699359342.887577,
+        "Rs_km": 12699359.342887577,
+        "Rs_AU": 0.08488876566101322
+      },
+      "ratio": {
+        "mass_ratio": 1511.627906976744,
+        "Rs_ratio": 1511.627906976744
+      }
+    },
+    "torus_parameters": {
+      "M87": {
+        "major_radius": 191967059834347.06,
+        "R_Rs_units": 10.0,
+        "minor_radius": 67188470942021.48,
+        "r_Rs_units": 3.5,
+        "R_over_r": 2.8571428571428568
+      },
+      "SgrA": {
+        "major_radius": 63496796714.43788,
+        "R_Rs_units": 5.0,
+        "minor_radius": 634967967.1443788,
+        "r_Rs_units": 0.049999999999999996,
+        "R_over_r": 100.0
+      },
+      "comparison": {
+        "R_ratio": 3023.255813953488,
+        "r_ratio": 105813.95348837209,
+        "R_r_ratio": 0.028571428571428567
+      }
+    },
+    "jet_velocities": {
+      "M87": {
+        "R_over_r": 2.8571428571428568,
+        "v_over_c": 0.9367496997597597,
+        "v_km_per_s": 280830.4950217404,
+        "lorentz_factor": 2.8571428571428577
+      },
+      "SgrA": {
+        "R_over_r": 100.0,
+        "v_over_c": 0.9999499987499374,
+        "v_km_per_s": 299777.4680023407,
+        "lorentz_factor": 99.9999999998945
+      },
+      "comparison": {
+        "velocity_ratio": 0.9367965407578519,
+        "gamma_ratio": 0.02857142857145872
+      }
+    },
+    "energy_densities": {
+      "accretion_power": {
+        "M87": 3.2279837340285568e+35,
+        "SgrA": 3.227983734028557e+29,
+        "ratio": 999999.9999999999
+      },
+      "torus_volume": {
+        "M87": 1.7105901606186306e+43,
+        "SgrA": 5.053417625158815e+29,
+        "ratio": 33850164136491.12
+      },
+      "energy_density": {
+        "M87": 6.294549672647407e-17,
+        "SgrA": 2.1307153958441123e-09,
+        "ratio": 2.954195424186971e-08,
+        "threshold": 6.294549672647407e-18
+      },
+      "jet_activity": {
+        "M87": true,
+        "SgrA": true,
+        "SgrA_deficit_factor": 2.954195424186971e-09
+      }
+    },
+    "observational_predictions": {
+      "W_axis_period": {
+        "M87_seconds": 1408166.2235638094,
+        "M87_days": 16.29822018013668,
+        "SgrA_seconds": 13.307944530383253,
+        "SgrA_minutes": 0.22179907550638756,
+        "ratio": 105813.9534883721
+      },
+      "angular_size": {
+        "M87_uas": 15.27485325306746,
+        "SgrA_uas": 20.4532974791769,
+        "ratio": 0.746816168327796
+      },
+      "observability": {
+        "M87_jet": "Strong, observable",
+        "SgrA_jet": "Not detected (energy deficit)",
+        "explanation": "Insufficient accretion rate in Sgr A*"
+      }
+    },
+    "visualization": {
+      "file": "sgr_a_comparison.html",
+      "type": "comparative_bar_chart"
+    }
+  }
+}
