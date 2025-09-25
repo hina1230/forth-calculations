@@ -223,9 +223,10 @@ class MagneticFieldSimulation:
             height=800
         )
 
-        # HTMLファイルとして保存
+        # HTMLファイルとして保存（オフライン版として作成）
         html_file = 'magnetic_field_3d.html'
-        fig.write_html(html_file)
+        # 'directory'オプションを使用してPlotly.jsを別ファイルとして保存
+        fig.write_html(html_file, include_plotlyjs='directory')
 
         self.results['visualization'] = {
             "file": html_file,
