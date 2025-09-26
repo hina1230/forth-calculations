@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "calculation_date": "2025-09-25T17:14:40.417617",
+    "calculation_date": "2025-09-26T12:11:06.020745",
     "author": "Yoshiyuki Matsuyama",
     "article": "#006 Disappearance Time",
     "version": "1.0"
@@ -274,6 +274,27 @@
     "visualization": {
       "file": "disappearance_time_006.html",
       "type": "disappearance_time_vs_radius"
+    }
+  },
+  "visualization": {
+    "disappearance_times": {
+      "radius_Rs": [
+        0.5,
+        1.0,
+        2.0,
+        3.5,
+        5.0,
+        10.0
+      ],
+      "time_hours": [
+        55.879612046182906,
+        111.75922409236581,
+        223.51844818473162,
+        391.1572843232804,
+        558.7961204618291,
+        1117.5922409236582
+      ],
+      "description": "Disappearance time vs torus tube radius"
     }
   }
 }

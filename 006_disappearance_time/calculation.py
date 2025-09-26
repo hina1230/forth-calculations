@@ -280,6 +280,16 @@ class DisappearanceTimeCalculation:
 
     def save_results(self):
         """計算結果の保存"""
+
+        # 可視化データを準備
+        r_Rs = np.array(self.r_values)
+        delta_t_hours = []
+
+        for r in r_Rs:
+            r_meters = r * self.Rs
+            dt = 2 * np.pi * r_meters / self.c / 3600  # hours
+            delta_t_hours.append(dt)
+
         output = {
             "metadata": {
                 "calculation_date": datetime.now().isoformat(),
@@ -302,7 +312,14 @@ class DisappearanceTimeCalculation:
                     "schwarzschild_radius": self.Rs_SgrA
                 }
             },
-            "results": self.results
+            "results": self.results,
+            "visualization": {
+                "disappearance_times": {
+                    "radius_Rs": r_Rs.tolist(),
+                    "time_hours": delta_t_hours,
+                    "description": "Disappearance time vs torus tube radius"
+                }
+            }
         }
 
         with open('calculation_results_006.json', 'w', encoding='utf-8') as f:
